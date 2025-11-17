@@ -1,0 +1,263 @@
+body{
+    font-family: "Inter", serif;
+    margin: 0;
+}
+header{
+    background-color: #C11616;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+.cima{
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin: 12px;
+    margin-left: 0%;
+}
+.cima span{
+    font-style: italic;
+}
+.lupa{
+    margin: 12px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.geral-citacao{
+    display: flex;
+    justify-content: center;
+}
+.citacao{
+    max-width: 70%;
+}
+input{
+    background-color: #C11616;
+    border: 1px;
+    border-bottom: #fff;
+}
+h1{
+    color: #273644;
+}
+header a{
+    color: #fff;
+}
+.publicado{
+    background-color: #EFF2F7;
+    color: #3C4B58;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding: 1em;
+}
+
+.publicado a{
+    color: #C11616;
+}
+main{
+    display: flex;
+}
+.citacao h1{
+    padding: 1em;
+}
+.citacao p{
+    color: #707C8C;
+    padding: 1em;
+}
+.geral-continue{
+    padding: 1em;
+}
+.continue{
+    border: 0px;
+    background: rgb(239,239,242);
+    background: linear-gradient(90deg, rgba(239,239,242,1) 0%, rgba(255,255,255,0.8547794117647058) 30%, rgba(255,255,255,1) 100%);
+    padding: 5px;
+}
+.continue a{
+    color: #273644;
+    text-decoration: none;
+}
+.citacao h3{
+    color: #8D9AA6;
+}
+.filtros{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.filtros span{
+    font-size: 0.65em;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 4px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    z-index: 1000;
+    background: #F9FAFC;
+}
+.filtros a:hover span{
+    color: #273644;
+}
+.filtros li{
+    list-style: none;
+}
+.filtros a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #EB5151;
+    padding: 5px;
+    border: 1px solid;
+    position: relative;
+}
+.filtros a:hover{
+    background: #EB5151;
+    color: #F9FAFC;
+}
+.ver-tudo{
+    color: #8D9AA6;
+    display: flex;
+    justify-content: end;
+}
+.galeria{
+    display: flex;
+    column-gap: 10px;
+    max-width: 80%;
+}
+.fotos{
+    display: flex;
+}
+.foto{
+    position: relative; 
+}
+.foto .especial::after{
+    background: linear-gradient(90deg, rgba(9,9,121,0) 0%, rgba(9,9,121,1) 100%);
+    width: 50%;
+    height: 100px;
+    position: absolute;
+    content: "";
+}
+.videos{
+    display: flex;
+}
+.video{
+    position: relative;
+}
+.video .especial::after{
+    background: linear-gradient(90deg, rgba(9,9,121,0) 0%, rgba(9,9,121,1) 100%);
+    width: 50%;
+    height: 100px;
+    position: absolute;
+    content: "";
+}
+.video .play{
+    position: absolute;
+    top: calc(50% - 45px /2);
+    left: calc(50% - 45px /2);
+    z-index: 100;
+}
+.galeria .mais{
+    display: flex;
+    justify-content: end;
+}
+.galeria a{
+    color: #C11616;
+    text-decoration: none;
+}
+.ultimos{
+    max-width: 70%;
+}
+.ultimos span{
+    color: #8D9AA6;
+
+    display: flex;
+    align-items: center;
+}
+.ultimos .post-publi{
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.ultimos a{
+    color: #3C4B58;
+}
+.post{
+    margin: 30px;
+    border-bottom: 1px solid #D3DDE6;
+    padding: 1em;
+}
+.ultimos .ver-tudo{
+    color: #2648A1;
+}
+.geral-series{
+    max-width: 70%;
+}
+.series{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.serie{
+    width: 200px;
+    margin: 7px;
+    color: #EB5151;
+    border: 1px solid;
+    padding: 1em;
+    border-radius: 5px;
+}
+.geral-series h3{
+    color: #273644;
+}
+.serie .titulo-serie{
+    border-bottom: 1px solid;
+    margin: 12px;
+}
+.series p{
+    color: #8D9AA6;
+}
+.series .italico{
+    font-style: italic;
+}
+.geral-series .ver-colet{
+    color: #2648A1;
+    display: flex;
+    justify-content: start;
+}
+.descricao{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.autor{
+    color: #C11616;
+    font-style: italic;
+}
+.links{
+    list-style: none;
+}
+.geral-coletaneas{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+.baixo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F9FAFC;
+    padding: 1em;
+    text-align: right;
+}
+.web{
+    background-color: #EFF2F7;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
