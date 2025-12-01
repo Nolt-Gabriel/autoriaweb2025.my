@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 10</title>
+</head>
+<script>
+    
+    let distanciaKm = 320;
+    let combustivelLitros = 24;
+    let custoLitro = 5.80;
+    let tempoHoras = 5.5;
+
+    
+    function consumoMedio(distancia, combustivel) {
+      let media = distancia / combustivel;
+      console.log("Consumo médio: " + media.toFixed(2) + " km/l.");
+    }
+
+    
+    function custoTotal(combustivel, custo) {
+      let total = combustivel * custo;
+      console.log("Custo total com combustível: R$" + total.toFixed(2) + ".");
+    }
+
+   
+    function velocidadeMedia(distancia, tempo) {
+      let vm = distancia / tempo;
+      console.log("Velocidade média: " + vm.toFixed(2) + " km/h.");
+    }
+
+    
+    console.log("==== Calculadora de Viagem ====");
+    consumoMedio(distanciaKm, combustivelLitros);
+    custoTotal(combustivelLitros, custoLitro);
+    velocidadeMedia(distanciaKm, tempoHoras);
+    console.log("Esses cálculos ajudam a planejar sua próxima viagem!");
+
+</script>
+<body>
+    
+</body>
+</html>
