@@ -1,11 +1,8 @@
+[data-theme="info-webeti"] {
 
-@plugin "daisyui/theme" {
-  name: "info-webeti";
-  default: false;
-  prefersdark: false;
-  color-scheme: "dark";
-  --color-base-100: oklch(37% 0.146 265.522);
-  --color-base-200: oklch(28% 0.091 267.935);
+  color-scheme: "info-webeti";
+  --color-base-100: oklch(28% 0.091 267.935);
+  --color-base-200: oklch(37% 0.146 265.522);
   --color-base-300: oklch(62% 0.214 259.815);
   --color-base-content: oklch(97% 0.014 254.604);
   --color-primary: oklch(85.661% 0.144 198.645);
@@ -33,3 +30,4 @@
   --depth: 1;
   --noise: 0;
 }
+
